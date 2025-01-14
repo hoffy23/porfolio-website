@@ -6,8 +6,8 @@ import autoprefixer from 'autoprefixer'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/porfolio-website/',
-  css: {  
+  base: "/porfolio-website/",
+  css: {
     postcss: {
       plugins: [
         tailwindcss,
