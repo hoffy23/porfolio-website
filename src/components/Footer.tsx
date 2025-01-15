@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                     <a href="https://www.github.com/hoffy23/" target="_blank" rel="noopener noreferrer" >
                         <img src={IconGithub} alt="Github" className="w-8 h-8" />
                     </a>
-                    <a href="mailto:mendel@mendelhoffman.com?subject=Inquiry from Portfolio Website" target="_blank" rel="noopener noreferrer" >
+                    <a href="mailto:mendel@mendelhoffman.com?subject=Inquiry from Portfolio Website">
                         <img src={IconEmail} alt="Email" className="w-8 h-8" />
                     </a>
                 </div>
