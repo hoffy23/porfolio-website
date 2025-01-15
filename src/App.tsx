@@ -30,10 +30,13 @@ const App: React.FC = () => {
     <div className="bg-custom-background h-full">
       {/* Navbar*/}
       <Navbar />
-      {/* About Me Section*/}
-      <About />
+      {/* About Me Section className="flex flex-col items-center justify-center h-screen"*/}
+      <section id="about">
+        <About />
+      </section>
+
       {/* Cards  */}
-      <div className="flex flex-wrap justify-center px-4">
+      <section id="projects" className="flex flex-wrap justify-center px-4">
         {cards.map((card, index) => (
           <Card
             key={index}
@@ -41,11 +44,12 @@ const App: React.FC = () => {
             description={card.description}
             image={card.image} />
         ))}
-
-      </div>
-
+      </section>
       {/* Footer  */}
-      <Footer />
+      <section id="contact">
+        <Footer />
+      </section>
+
 
     </div>
   )
